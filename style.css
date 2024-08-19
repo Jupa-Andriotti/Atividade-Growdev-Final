@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.pagina {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu-lateral {
+    background-color: #590f8a;
+    color:#111111;
+    width: 250px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meu-perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    border: 5px solid #c987f5; /* Corrigido */
+}
+
+.navegacao ul {
+    list-style-type: none;    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navegacao ul li {
+    margin: 10px 0;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    color: #c987f5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.minhas-infos {
+    flex-grow: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.minhas-infos .meu-endereco {
+    margin: 15px 0;
+    color: #111111;
+    font-size: 16px;
+}
+
+.minhas-infos .descricao {
+    font-size: 18px;
+    color: #111111;
+    margin: 50px 0;
+}
+
+.minhas-infos a {
+    color: #590f8a;
+}
+
+.minhas-infos .meu-nome {
+    font-weight: 900;
+    font-size: 45px;
+    margin: 0;
+}
+
+.minhas-infos .meu-nome .sobrenome {
+    color: #590f8a;
+}
+
+.redes-sociais a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #590f8a;
+    text-decoration: none;
+}
+
+.objetivos {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conhecimentos {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
